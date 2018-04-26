@@ -1,0 +1,69 @@
+
+/* end of large landscape view */
+@media screen and (max-width: 613px) and (orientation: landscape) {
+
+html{
+  font-size: 5px;
+}
+.about_main_text {
+  display: flex;
+  font-size: 3rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #102388;
+  padding: 2.5rem;
+}
+.img_link {
+  font-size: 2.5rem;
+  text-transform: capitalize;
+  color: #c1b54a;
+  font-weight: bold;
+  font-family: cursive;
+}
+.img_size {
+  width: 200px;
+  height: 90px;
+  border: 0.5rem solid black;
+  margin-top: 4px;
+}
+
+.projects_main {
+  background-color: white;
+  display: grid;
+  grid-gap: 1rem;
+  padding: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-auto-rows: 25vh;
+}
+
+.phone_contact {
+  font-size: 2.3rem;
+  text-align: center;
+  text-transform: capitalize;
+  color: black;
+}
+
+.email_address {
+  font-size: 2.3rem;
+  text-align: center;
+  text-transform: capitalize;
+  color: black;
+}
+
+.social_media {
+  font-size: 2.3rem;
+  text-align: center;
+  text-transform: capitalize;
+  color: black;
+}
+
+.icon_div {
+  display: flex;
+  justify-content: space-around;
+  color: blue;
+  font-size: 4rem;
+}
+
+
+}
